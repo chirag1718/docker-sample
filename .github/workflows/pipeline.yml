@@ -6,7 +6,7 @@ on:
 
 jobs:
   buil-project:
-    runs-onm: ubuntu-lastest
+    runs-on: ubuntu-lastest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
