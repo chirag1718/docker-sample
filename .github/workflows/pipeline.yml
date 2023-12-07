@@ -1,0 +1,3 @@
+name: docker-pipeline
+
+on: pusg: branches: [master]
