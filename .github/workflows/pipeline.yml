@@ -2,7 +2,7 @@ name: docker-pipeline
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   buil-project:
@@ -27,13 +27,11 @@ docker-build-push:
       with:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-    -
-      name: Set up Docker Buildx
+    - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2
-    -
-      name: Build and push
+    - name: Build and push
       uses: docker/build-push-action@v3
-      with: 
+      with:
         context: .
         file: ./Dockerfile
         push: true
