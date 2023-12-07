@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  buil-project:
+  build-project:
     runs-on: ubuntu-lastest
     steps:
       - name: Checkout Code
