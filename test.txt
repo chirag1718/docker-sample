@@ -1,6 +1,0 @@
-git@github.com-contractspan:ContractSPAN/contractspan-frontend.git
-
-git@github.com:ContractSPAN/contractspan-frontend.git
-
-git@github.com:chiragsonar/docker-test.git
-git@github.com-contractspan:chiragsonar/docker-test.git
