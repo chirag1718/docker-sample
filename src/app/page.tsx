@@ -5,6 +5,7 @@ const page = () => {
   return (
     <div className="h-screen w-screen">
       <Test />
+      <p>👆🏻 this is a test component</p>
     </div>
   );
 };
