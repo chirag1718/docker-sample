@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "generate": "next build",
-    "start": "next build && npx serve -s out",
-    "lint": "next lint"
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "next build"
   },
   "dependencies": {
     "react": "^18",
