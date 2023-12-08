@@ -20,7 +20,7 @@ const Test = () => {
       <div>
         <p className="text-xl text-black">{inputValues}</p>
       </div>
-      <p>hello yo</p>
+      <p>Hello world</p>
     </div>
   );
 };
