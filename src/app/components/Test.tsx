@@ -21,6 +21,7 @@ const Test = () => {
         <p className="text-xl text-black">{inputValues}</p>
       </div>
       <p>Hello world</p>
+      <p>Initiated self hosted runners as service</p>
     </div>
   );
 };
