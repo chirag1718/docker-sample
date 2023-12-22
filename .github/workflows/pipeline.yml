@@ -38,4 +38,4 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/docker-sample:0.1
           dockerfile: Dockerfile
           build-args: |
-            --config=/path/to/your/docker-engine-config.json
+            --config=/C:\Users\Anmol\.docker\daemon.json
