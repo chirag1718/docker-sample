@@ -36,3 +36,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/docker-sample:0.1
+          dockerfile: Dockerfile
