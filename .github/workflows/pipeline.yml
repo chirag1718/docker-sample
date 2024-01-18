@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-project:
-    runs-on: actions/checkout@v2
+    runs-on: self-hosted
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
