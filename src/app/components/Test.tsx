@@ -20,7 +20,7 @@ const Test = () => {
       <div>
         <p className="text-xl text-black">{inputValues}</p>
       </div>
-      <p>Hello world</p>
+      <p>Hello AWS</p>
       <p>Initiated self hosted runners as service</p>
       <p> - name: Login to docker hub uses: docker/login-action@v2</p>
     </div>
